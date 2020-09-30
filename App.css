@@ -1,0 +1,15 @@
+.a {
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 600px;
+}
+
+label, input {
+  display: block;
+}
+
+input:active {
+  border: 1px solid red;
+}
